@@ -1531,7 +1531,7 @@ footer {
 /* Small note below the interest cards */
 .tag-note a {
     font-weight: bold;
-    font-size: 14px;
+    font-size: 10px;
     color: #f25f55;
     display: inline-block;
     transition: color 0.2s, transform 0.2s;
