@@ -1,93 +1,1278 @@
+<!--
+    Name: Gewell P. Piñano
+    Course: CMSC 100 - Web Programming
+    Section: D1L
+
+    Exercise 02: Create Your Own GitHub Page from HTML and CSS
+
+    This file contains the HTML structure of my personal portfolio
+    website. The website includes sections for my profile, about me,
+    projects, skills, and contact information.
+-->
+
 <!DOCTYPE html>
+<html lang="en">
 
-<html>
-  <head>
-    <title>Sample Web Page</title>
-    <link rel="stylesheet" type="text/css" href="flex.css" />
+<head>
 
-  </head>
+    <!-- Basic information and settings for the webpage -->
+    <meta charset="UTF-8">
 
-  <body>
-    
-    <nav>
-    <div class="nav_bar" >
-        <div class="flex-item" style="flex: 1">
-            <a href="/html/">HTML</a> |
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Gewell Piñano | Portfolio</title>
+
+    <!-- External CSS file used for the website's design and layout -->
+    <link rel="stylesheet" href="gew.css">
+
+</head>
+
+
+<body>
+
+
+    <!-- Background elements used to create the animated visual design -->
+    <div class="site-background">
+
+        <div class="bg-grid"></div>
+
+        <div class="bg-glow glow-one"></div>
+        <div class="bg-glow glow-two"></div>
+        <div class="bg-glow glow-three"></div>
+
+
+        <!-- Decorative contour lines on both sides of the page -->
+        <div class="level-lines level-lines-right">
+
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+
         </div>
-        <div class="flex-item" style="flex: 1">
-            <a href="/css/">CSS</a>
-        </div> 
-    |   <div class="flex-item" style="flex: 1">
-            <a href="/js/">JavaScript</a> |
+
+
+        <div class="level-lines level-lines-left">
+
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+
         </div>
-        <div class="flex-item" style="flex: 1">
-            <a href="/python/">Python</a>
+
+
+        <!-- Small animated particles used as background decorations -->
+        <div class="ambient-particles">
+
+            <i></i>
+            <i></i>
+            <i></i>
+            <i></i>
+            <i></i>
+            <i></i>
+            <i></i>
+            <i></i>
+
         </div>
+
     </div>
-    </nav>
 
-    <div class="flex-container">
-        <div class="flex-item" style="flex: 3;">
-            <h1>1</h1>
-            <p>This is a paragraph</p>
-        </div>
-        <div class="flex-item" style="flex: 3;">
-            <h1>2</h1>
-            <p>This is another paragraph</p>
-        </div>
-        <div class="flex-item" style="flex: 2;">
-            <h1>3</h1>
-            <p>This is another paragraph</p>
-            <p>This is another paragraph</p>
-        </div>
-        <div class="flex-item" style="flex: 4;">
-            <h1>4</h1>
-            <p>This is another paragraph</p>
-        </div>
-        <div class="flex-item" style="flex: 3;">
-            <h1>5</h1>
-            <p>This is another paragraph</p>
-            <p>This is another paragraph</p>
-            <p>This is another paragraph</p>
-            <p>This is another paragraph</p>
-            <p>This is another paragraph</p>
-        </div>
-        <div class="flex-item" style="flex: 1;">
-            <h1>6</h1>
-            <p>This is another paragraph</p>
-        </div>
-    </div>
-    <div class="flex-container2">
-        <div class="flex-item" style="flex: 3;">
-            <h1>1</h1>
-            <p>This is a paragraph</p>
-        </div>
-        <div class="flex-item" style="flex: 3;">
-            <h1>2</h1>
-            <p>This is another paragraph</p>
-        </div>
-        <div class="flex-item" style="flex: 2;">
-            <h1>3</h1>
-            <p>This is another paragraph</p>
-            <p>This is another paragraph</p>
-        </div>
-        <div class="flex-item" style="flex: 4;">
-            <h1>4</h1>
-            <p>This is another paragraph</p>
-        </div>
-        <div class="flex-item" style="flex: 3;">
-            <h1>5</h1>
-            <p>This is another paragraph</p>
-            <p>This is another paragraph</p>
-            <p>This is another paragraph</p>
-            <p>This is another paragraph</p>
-            <p>This is another paragraph</p>
-        </div>
-        <div class="flex-item" style="flex: 1;">
-            <h1>6</h1>
-            <p>This is another paragraph</p>
-        </div>
-    </div>
-  </body>
+
+
+    <!-- Navigation bar containing links to the different sections -->
+    <header class="navbar">
+
+
+        <!-- Website logo that links back to the home section -->
+        <a href="#home" class="logo">
+
+            CODE<span>WELL.EXE</span><b>.</b>
+
+        </a>
+
+
+        <!-- Navigation links -->
+        <nav>
+
+            <a href="#home">HOME</a>
+            <a href="#about">ABOUT</a>
+            <a href="#projects">PROJECTS</a>
+            <a href="#skills">SKILLS</a>
+            <a href="#contact">CONTACT</a>
+
+        </nav>
+
+
+        <!-- Button that links directly to the contact section -->
+        <a href="#contact" class="nav-button">
+
+            LET'S TALK ✦
+
+        </a>
+
+
+    </header>
+
+
+
+    <main>
+
+
+        <!-- Home or hero section of the portfolio -->
+        <section id="home" class="hero">
+
+
+            <!-- Decorative pixel elements -->
+            <div class="pixel plus plus-one">+</div>
+
+            <div class="pixel plus plus-two">+</div>
+
+            <div class="pixel heart heart-one">♥</div>
+
+            <div class="pixel sparkle sparkle-one">✦</div>
+
+
+
+            <!-- Main introduction and information -->
+            <div class="hero-text">
+
+
+                <p class="small-title">
+
+                    ✧ DIGITAL PORTFOLIO
+
+                    <span>EST. 2026</span>
+
+                </p>
+
+
+                <p class="intro">
+
+                    HELLO, I'M
+
+                </p>
+
+
+                <h1>
+
+                    GEWELL<br>
+                    PIÑANO
+
+                </h1>
+
+
+                <!-- Short description of the CODEWELL.EXE portfolio concept -->
+                <div class="student-tag">
+
+                    ✧ CODEWELL.EXE is where code meets Gewell —
+                    a digital space where creativity, technology,
+                    and ideas come to life.
+
+                </div>
+
+
+                <p class="hero-description">
+
+                    I am a Computer Science student interested in
+                    web development, technology, digital design,
+                    and creating meaningful experiences through code.
+
+                </p>
+
+
+                <!-- Buttons for navigating to other sections -->
+                <div class="hero-buttons">
+
+
+                    <a href="#projects"
+                       class="primary-button">
+
+                        VIEW MY WORK →
+
+                    </a>
+
+
+                    <a href="#about"
+                       class="secondary-button">
+
+                        ABOUT ME
+
+                    </a>
+
+
+                </div>
+
+
+                <!-- Link that encourages the user to explore the website -->
+                <a href="#about"
+                   class="scroll-text">
+
+                    ↓ &nbsp; SCROLL TO EXPLORE
+
+                </a>
+
+
+            </div>
+
+
+
+            <!-- Profile image and pixel character -->
+            <div class="profile-area">
+
+
+                <!-- Decorative symbols around the profile -->
+                <div class="profile-decoration decoration-one">
+                    ✦
+                </div>
+
+
+                <div class="profile-decoration decoration-two">
+                    +
+                </div>
+
+
+
+                <!-- Window-style container for the profile image -->
+                <div class="window">
+
+
+                    <div class="window-header">
+
+                        <span>profile.jpeg</span>
+
+
+                        <div class="window-dots">
+
+                            <i class="red"></i>
+                            <i class="yellow"></i>
+                            <i class="green"></i>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="profile-image">
+
+                        <img src="profile.jpeg"
+                             alt="Profile Photo">
+
+                    </div>
+
+
+                </div>
+
+
+
+                <!-- Pixel version of the profile character -->
+                <div class="pixel-character">
+
+                    <img src="pixel-me.png"
+                         alt="Pixel Character">
+
+                </div>
+
+
+            </div>
+
+
+
+            <!-- Small window-style widgets displayed beside the profile -->
+            <div class="hero-widgets">
+
+
+                <!-- Welcome message widget -->
+                <div class="mini-window welcome-window">
+
+
+                    <div class="mini-header">
+
+                        <span>WELCOME.EXE</span>
+
+                        <b>■</b>
+
+                    </div>
+
+
+                    <div class="mini-content">
+
+                        <h3>
+
+                            print("Hello World! Welcome<br>
+                            to CODEWELL.EXE ✦")
+
+                        </h3>
+
+                    </div>
+
+
+                </div>
+
+
+
+                <!-- Current learning status widget -->
+                <div class="mini-window learning-window">
+
+
+                    <div class="mini-header">
+
+                        <span>currently.exe</span>
+
+                        <div class="mini-dots">
+
+                            ● ● ●
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="mini-content">
+
+
+                        <p>
+
+                            learning & creating ✧
+
+                        </p>
+
+
+                        <!-- Animated loading bar -->
+                        <div class="loading-bar">
+
+                            <div></div>
+
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+
+
+
+                <!-- Current goals or tasks widget -->
+                <div class="mini-window music-window">
+
+                    <div class="mini-header">
+
+                        <span>QUEST_LOG.EXE</span>
+
+                        <b>×</b>
+
+                    </div>
+
+
+                    <div class="mini-content">
+
+                        <h4>CURRENT QUEST</h4>
+
+                        <p>✓ Building projects</p>
+
+                        <p>✓ Learning HTML & CSS</p>
+
+                        <p>◻ Exploring new technologies</p>
+
+
+                        <!-- Progress bar for the current quest -->
+                        <div class="music-progress">
+
+                            <div></div>
+
+                        </div>
+
+
+                        <p class="quest-xp">
+
+                            XP
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+
+        </section>
+
+
+
+        <!-- About section containing personal and academic information -->
+        <section id="about"
+                 class="about section">
+
+
+            <!-- Decorative device displaying the About Me title -->
+            <div class="about-device">
+
+
+                <!-- Top part of the device -->
+                <div class="device-top">
+
+                    <span class="device-camera"></span>
+
+                    <span>ABOUT_ME.EXE</span>
+
+
+                    <div class="device-lights">
+
+                        <i></i>
+                        <i></i>
+
+                    </div>
+
+
+                </div>
+
+
+
+                <!-- Main screen of the device -->
+                <div class="device-screen">
+
+
+                    <div class="section-title">
+
+                        <p>
+
+                            01 &nbsp; ABOUT ME
+
+                        </p>
+
+
+                        <h2>
+
+                            A LITTLE<br>
+                            BIT ABOUT<br>
+                            ME.
+
+                        </h2>
+
+
+                    </div>
+
+
+                    <div class="device-sparkle">
+
+                        ✧
+
+                    </div>
+
+
+
+                    <!-- Pixel character decoration -->
+                    <div class="about-decoration">
+
+                        <img src="pixel-me.png"
+                             alt="Pixel Character">
+
+                    </div>
+
+
+                </div>
+
+
+
+                <!-- Decorative controls at the bottom of the device -->
+                <div class="device-controls">
+
+
+                    <div class="d-pad">
+
+                        ✚
+
+                    </div>
+
+
+                    <div class="control-buttons">
+
+                        <span>A</span>
+
+                        <span>B</span>
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+
+
+            <!-- Main text content for the About section -->
+            <div class="about-content">
+
+
+                <!-- Terminal-inspired heading -->
+                <div class="terminal-line">
+
+                    <span>➜</span>
+
+                    <p>about_me.txt</p>
+
+                </div>
+
+
+
+                <p>
+
+                    Hi! I'm <strong>Gewell Piñano</strong>,
+                    currently taking up a Bachelor of Science
+                    in Computer Science at the University of the Philippines
+                    Los Baños.
+
+                </p>
+
+
+                <p>
+
+                    I am interested in web development,
+                    technology, and digital design.
+                    I enjoy exploring how creativity and
+                    programming can work together to create
+                    engaging digital experiences.
+
+                </p>
+
+
+                <p>
+
+                    Through my academic experiences and
+                    personal projects, I continue to develop
+                    my skills and learn more about creating
+                    meaningful websites and solving problems
+                    through technology.
+
+                </p>
+
+
+
+                <!-- Cards showing the current status, mode, and focus -->
+                <div class="about-status">
+
+
+                    <div class="status-card">
+
+                        <img src="status.png"
+                             alt="Status Icon">
+
+                        <span>STATUS</span>
+
+                        <strong>STUDENT</strong>
+
+                    </div>
+
+
+
+                    <div class="status-card">
+
+                        <img src="mode.png"
+                             alt="Mode Icon">
+
+                        <span>MODE</span>
+
+                        <strong>LEARNING</strong>
+
+                    </div>
+
+
+
+                    <div class="status-card">
+
+                        <img src="focus.png"
+                             alt="Focus Icon">
+
+                        <span>FOCUS</span>
+
+                        <strong>CREATING</strong>
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+
+
+            <!-- Cards showing personal interests and areas of focus -->
+            <div class="about-tags">
+
+
+                <div class="tag-card">
+
+                    <span>⌘</span>
+
+                    WEB DEVELOPMENT
+
+                </div>
+
+
+                <div class="tag-card">
+
+                    <span>✎</span>
+
+                    GRAPHIC DESIGN
+
+                </div>
+
+
+                <div class="tag-card">
+
+                    <span>▣</span>
+
+                    TECHNOLOGY
+
+                </div>
+
+
+                <div class="tag-card">
+
+                    <span>✦</span>
+
+                    CREATIVITY
+
+                </div>
+
+
+                <div class="tag-card wide">
+
+                    <span>⌘</span>
+
+                    PROBLEM SOLVING
+
+                </div>
+
+
+                <div class="tag-note">
+
+                    ✦ CLICK TO EXPLORE MY INTERESTS
+
+                </div>
+
+
+            </div>
+
+
+        </section>
+
+
+
+        <!-- Projects section displaying previous works -->
+        <section id="projects"
+                 class="projects section">
+
+
+            <div class="projects-heading">
+
+
+                <div>
+
+
+                    <p>
+
+                        02 &nbsp; PROJECTS
+
+                    </p>
+
+
+                    <h2>
+
+                        PREVIOUS PROJECTS ✧
+
+                    </h2>
+
+
+                </div>
+
+
+                <!-- Decorative heart -->
+                <div class="project-heart">
+
+                    ♥
+
+                </div>
+
+
+            </div>
+
+
+
+            <!-- Grid containing the project cards -->
+            <div class="project-grid">
+
+
+                <!-- Project 1 -->
+                <article class="project-card">
+
+
+                    <div class="project-window-header">
+
+                        <span>project_01.exe</span>
+
+
+                        <div class="window-dots">
+
+                            <i class="red"></i>
+                            <i class="yellow"></i>
+                            <i class="green"></i>
+
+                        </div>
+
+
+                    </div>
+
+
+                    <div class="project-image">
+
+
+                        <img src="project1.png"
+                             alt="Project 1">
+
+
+                        <!-- Link to the GitHub repository -->
+                        <a href="https://github.com/gpinano/party-order-form.git"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           class="project-overlay">
+
+                            VIEW PROJECT →
+
+                        </a>
+
+
+                    </div>
+
+
+                    <div class="project-info">
+
+
+                        <h3>Party Order Form — CSS Styling</h3>
+
+
+                        <p>
+
+                            A responsive and creatively styled party order form created using HTML and external CSS.
+                            The project demonstrates CSS fundamentals, including layout design, form styling, colors, typography, and visual enhancements.
+
+                        </p>
+
+
+                        <!-- Technologies used in the project -->
+                        <div class="project-skills">
+
+                            <span>HTML</span>
+
+                            <span>CSS</span>
+
+                        </div>
+
+
+                    </div>
+
+
+                </article>
+
+
+
+                <!-- Project 2 -->
+                <article class="project-card">
+
+
+                    <div class="project-window-header">
+
+                        <span>project_02.exe</span>
+
+
+                        <div class="window-dots">
+
+                            <i class="red"></i>
+                            <i class="yellow"></i>
+                            <i class="green"></i>
+
+                        </div>
+
+
+                    </div>
+
+
+                    <div class="project-image">
+
+
+                        <img src="project2.png"
+                             alt="Project 2">
+
+
+                        <!-- Link to the GitHub repository -->
+                        <a href="https://github.com/gpinano/javafx-user-management-system.git"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           class="project-overlay">
+
+                            VIEW PROJECT →
+
+                        </a>
+
+                    </div>
+
+
+                    <div class="project-info">
+
+
+                        <h3>JavaFX User Management System</h3>
+
+
+                        <p>
+
+                            A JavaFX application for managing user accounts
+                            with features for creating, deleting, saving, and authenticating users, including multiple screens based on user types.
+
+                        </p>
+
+
+                        <!-- Technologies used in the project -->
+                        <div class="project-skills">
+
+                            <span>JAVAFX</span>
+
+                            <span>OOP</span>
+
+                        </div>
+
+
+                    </div>
+
+
+                </article>
+
+
+
+                <!-- Project 3 -->
+                <article class="project-card">
+
+
+                    <div class="project-window-header">
+
+                        <span>project_03.exe</span>
+
+
+                        <div class="window-dots">
+
+                            <i class="red"></i>
+                            <i class="yellow"></i>
+                            <i class="green"></i>
+
+                        </div>
+
+
+                    </div>
+
+
+                    <div class="project-image">
+
+
+                        <img src="project3.png"
+                             alt="Project 3">
+
+
+                        <!-- Link to the GitHub repository -->
+                        <a href="https://github.com/gpinano/terminal-based-rpg.git"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           class="project-overlay">
+
+                            VIEW PROJECT →
+
+                        </a>
+
+
+                    </div>
+
+
+                    <div class="project-info">
+
+
+                        <h3>Chronicles of the Slime Realm - Game</h3>
+
+
+                        <p>
+
+                            A Python terminal-based role-playing game featuring
+                            character training, exploration, turn-based battles, monsters, a shop system, inventory, save/load functionality, and a final boss battle.
+
+                        </p>
+
+
+                        <!-- Technologies used in the project -->
+                        <div class="project-skills">
+
+                            <span>PYTHON</span>
+
+                            <span>RPG</span>
+
+                        </div>
+
+
+                    </div>
+
+
+                </article>
+
+
+            </div>
+
+
+        </section>
+
+
+
+        <!-- Skills section showing abilities being developed -->
+        <section id="skills"
+                 class="skills section">
+
+
+            <div class="skills-heading">
+
+
+                <p>
+
+                    03 &nbsp; SKILLS
+
+                </p>
+
+
+                <h2>
+
+                    SKILLS &<br>
+                    ABILITIES ✧
+
+                </h2>
+
+
+                <p class="skills-subtitle">
+
+                    Tools and abilities I'm continuously
+                    developing along my journey.
+
+                </p>
+
+
+            </div>
+
+
+
+            <!-- Grid containing the different skill cards -->
+            <div class="skills-grid">
+
+
+                <!-- Skill 1 -->
+                <div class="skill-card">
+
+                    <div class="skill-icon">
+
+                        &lt;/&gt;
+
+                    </div>
+
+                    <h3>HTML</h3>
+
+                    <p>
+
+                        Structuring and organizing
+                        website content.
+
+                    </p>
+
+                </div>
+
+
+
+                <!-- Skill 2 -->
+                <div class="skill-card">
+
+                    <div class="skill-icon">
+
+                        ▣
+
+                    </div>
+
+                    <h3>CSS</h3>
+
+                    <p>
+
+                        Designing visually appealing
+                        responsive websites.
+
+                    </p>
+
+                </div>
+
+
+
+                <!-- Skill 3 -->
+                <div class="skill-card">
+
+                    <div class="skill-icon">
+
+                        ◫
+
+                    </div>
+
+                    <h3>MANAGEMENT</h3>
+
+                    <p>
+
+                        Organizing tasks and managing
+                        responsibilities.
+
+                    </p>
+
+                </div>
+
+
+
+                <!-- Skill 4 -->
+                <div class="skill-card">
+
+                    <div class="skill-icon">
+
+                        ◉
+
+                    </div>
+
+                    <h3>GIT &amp; GITHUB</h3>
+
+                    <p>
+
+                        Managing versions and organizing
+                        project files.
+
+                    </p>
+
+                </div>
+
+
+
+                <!-- Skill 5 -->
+                <div class="skill-card">
+
+                    <div class="skill-icon">
+
+                        ✚
+
+                    </div>
+
+                    <h3>PROBLEM SOLVING</h3>
+
+                    <p>
+
+                        Analyzing problems and finding
+                        logical solutions.
+
+                    </p>
+
+                </div>
+
+
+
+                <!-- Skill 6 -->
+                <div class="skill-card">
+
+                    <div class="skill-icon">
+
+                        ✦
+
+                    </div>
+
+                    <h3>CREATIVE DESIGN</h3>
+
+                    <p>
+
+                        Combining creativity and
+                        technology in digital projects.
+
+                    </p>
+
+                </div>
+
+
+            </div>
+
+
+        </section>
+
+
+
+        <!-- Contact section containing ways to get in touch -->
+        <section id="contact"
+                 class="contact section">
+
+
+            <div class="contact-title">
+
+
+                <p>
+
+                    04 &nbsp; GET IN TOUCH
+
+                </p>
+
+
+                <h2>
+
+                    LET'S CREATE<br>
+                    SOMETHING<br>
+                    COOL.
+
+                </h2>
+
+
+                <!-- Decorative symbols -->
+                <div class="contact-decoration">
+
+                    ✦ ✦ ✦
+
+                </div>
+
+
+            </div>
+
+
+
+            <!-- Contact information -->
+            <div class="contact-info">
+
+
+                <!-- Email -->
+                <div class="contact-item">
+
+
+                    <span class="contact-icon">
+
+                        ✉
+
+                    </span>
+
+
+                    <div>
+
+                        <h4>EMAIL</h4>
+
+                        <p>
+
+                            <a href="mailto:gppinano@up.edu.ph">
+                                gppinano@up.edu.ph
+                            </a>
+
+                        </p>
+
+                    </div>
+
+
+                </div>
+
+
+
+                <!-- Location -->
+                <div class="contact-item">
+
+
+                    <span class="contact-icon">
+
+                        ⌖
+
+                    </span>
+
+
+                    <div>
+
+                        <h4>LOCATION</h4>
+
+                        <p>
+
+                            Balayan, Batangas,<br>
+                            Philippines
+
+                        </p>
+
+                    </div>
+
+
+                </div>
+
+
+
+                <!-- Portfolio name -->
+                <div class="contact-item">
+
+
+                    <span class="contact-icon">
+
+                        ◎
+
+                    </span>
+
+
+                    <div>
+
+                        <h4>PORTFOLIO</h4>
+
+                        <p>
+
+                            CODEWELL.EXE
+
+                        </p>
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+
+        </section>
+
+
+    </main>
+
+
+
+    <!-- Footer containing copyright information -->
+    <footer>
+
+
+        <p>
+
+            © 2026 GEWELL PIÑANO
+            — ALL RIGHTS RESERVED.
+
+        </p>
+
+
+        <!-- Link that returns the user to the top of the page -->
+        <a href="#home">
+
+            ↑ BACK TO TOP
+
+        </a>
+
+
+    </footer>
+
+
+</body>
 
 </html>
