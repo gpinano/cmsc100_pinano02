@@ -1539,6 +1539,10 @@ footer {
     opacity: 0.6;
 }
 
+.tag-note a {
+    font-weight: 700;
+    font-size: 20px;
+}
 
 /* -- PROJECTS SECTION -- */
 
