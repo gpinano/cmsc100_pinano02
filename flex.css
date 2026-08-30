@@ -1530,16 +1530,17 @@ footer {
 
 /* Small note below the interest cards */
 .tag-note a {
+    display: inline-block;
     font-weight: bold;
     font-size: 14px;
-     white-space: nowrap;
+    white-space: nowrap;
     color: #f25f55;
-    transition: 0.2s;
+    transition: transform 0.2s, color 0.2s;
 }
 
 .tag-note a:hover {
     color: #163f31;
-    font-size: 16px;
+    transform: scale(1.15);
 }
 
 /* -- PROJECTS SECTION -- */
