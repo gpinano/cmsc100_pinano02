@@ -1529,21 +1529,16 @@ footer {
 
 
 /* Small note below the interest cards */
-.tag-note {
-    grid-column: span 2;
-
-    text-align: center;
-
-    opacity: 0.6;
-}
-
 .tag-note a {
-    font-size: 14px;
     font-weight: bold;
+    font-size: 14px;
+    color: #f25f55;
+    transition: 0.2s;
 }
 
 .tag-note a:hover {
-    color: #f25f55;
+    color: #e74c3c;
+    font-size: 16px;
 }
 
 /* -- PROJECTS SECTION -- */
