@@ -2005,8 +2005,8 @@ footer {
     line-height: 1.6;
 }
 
-.contact-item a:hover {
-    color: #e74c3c;
+.contact-item p a:hover {
+    color: #e74c3c !important;
 }
 
 /* -- FOOTER -- */
