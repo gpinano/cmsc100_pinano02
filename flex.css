@@ -1527,18 +1527,36 @@ footer {
     justify-content: center;
 }
 
-
 /* Small note below the interest cards */
+.tag-note {
+    grid-column: 1 / -1;
+
+    display: flex;
+    justify-content: center;
+
+    width: 100%;
+
+    margin-top: 5px;
+
+    text-align: center;
+}
+
+
 .tag-note a {
     font-weight: bold;
-    font-size: 10px;
-    color: #f25f55;
+    font-size: 14px;
+
+    color: #163f31;
+
     display: inline-block;
+
     transition: color 0.2s, transform 0.2s;
 }
 
+
 .tag-note a:hover {
-    color: #163f31;
+    color: #f25f55;
+
     transform: scale(1.08);
 }
 
