@@ -1531,13 +1531,16 @@ footer {
 /* Small note below the interest cards */
 .tag-note {
     grid-column: span 2;
+
     text-align: center;
+
+    font-size: 8px;
+
+    opacity: 0.6;
 }
 
 .tag-note a {
-    font-size: 20px !important;
-    font-weight: bold !important;
-    opacity: 1 !important;
+    font-weight: bold;
 }
 
 /* -- PROJECTS SECTION -- */
