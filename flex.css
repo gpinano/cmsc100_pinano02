@@ -1534,15 +1534,11 @@ footer {
 
     text-align: center;
 
-    font-size: 8px;
-
     opacity: 0.6;
 }
 
-
-/* Makes the interests link bold and larger */
 .tag-note a {
-    font-size: 11px;
+    font-size: 14px;
     font-weight: bold;
 }
 
