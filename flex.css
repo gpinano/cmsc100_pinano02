@@ -1542,6 +1542,10 @@ footer {
     font-weight: bold;
 }
 
+.tag-note a:hover {
+    color: #f25f55;
+}
+
 /* -- PROJECTS SECTION -- */
 
 /* Background and layout for the Projects section */
